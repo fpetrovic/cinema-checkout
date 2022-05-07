@@ -1,0 +1,13 @@
+{
+  "name": "cinema-checkout",
+  "version": "1.0.0",
+  "description": "Checkout system for cinemas all around the globe.",
+  "devDependencies": {
+    "@commitlint/cli": "16.2.4",
+    "@commitlint/config-conventional": "16.2.4",
+    "husky": "^7.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}

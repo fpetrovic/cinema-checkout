@@ -1,0 +1,7 @@
+parameters:
+	ignoreErrors:
+		#false positive
+		-
+			message: "#^Parameter \\#1 \\$cartItem of method CinemaCheckout\\\\Cart\\:\\:setCartItem\\(\\) expects CinemaCheckout\\\\CartItem, CinemaCheckout\\\\CartItem\\|null given\\.$#"
+			count: 1
+			path: src/Cart.php
